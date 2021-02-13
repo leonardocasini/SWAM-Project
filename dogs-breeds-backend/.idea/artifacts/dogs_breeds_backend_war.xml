@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dogs-breeds-backend:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dogs-breeds-backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dogs-breeds-backend-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="dogs-breeds-backend:war exploded" />
+    </root>
+  </artifact>
+</component>
