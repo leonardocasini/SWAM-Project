@@ -59,7 +59,7 @@ public class Provider {
 		if( !publicKeyFile.exists()  || !privateKeyFile.exists()) { // Check if files exist or not
 		    		
 		    		//If not exists
-		        	GeneratorKeys generator = new GeneratorKeys(512); 
+		        	GeneratorKeys generator = new GeneratorKeys(1024); 
 		        	/* This method generate the keys and save them in those paths*/
 		        	generator.saveKeys(publicKeyPath, privateKeyPath); 
 		        	
